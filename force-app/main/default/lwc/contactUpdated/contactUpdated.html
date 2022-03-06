@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Contact Updated" icon-name="custom:custom83">
+        <div class="slds-m-around_medium">
+            <template if:true={displayContact}>
+                <lightning-record-form
+                    object-api-name="Contact"
+                    record-id={recordId}
+                    layout-type="Compact"
+                    columns="2"
+                    mode="readonly"
+                >
+                </lightning-record-form>
+            </template>
+        </div>
+    </lightning-card>
+</template>

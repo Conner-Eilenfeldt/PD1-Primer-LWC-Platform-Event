@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ContactTrigger_Helper</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>ContactTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Contact_Updated__e.Id__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Contact_Updated__e</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Contact_Updated</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>contactUpdated</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <version>53.0</version>
+</Package>
